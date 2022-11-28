@@ -1,8 +1,12 @@
+import React from "react";
+
+import Routes from "./routes/routes";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Learning React JS</h1>
-    </div>
+      <React.Fragment>
+        <Routes />
+      </React.Fragment>
   );
 }
 
